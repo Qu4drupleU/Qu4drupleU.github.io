@@ -17,7 +17,7 @@ custom_js:
 
 For a more interactive experience, I have also included a scatter plot that allows users to explore the data in more depth:
 
-vegachart schema-url="{{ site.baseurl }}/assets/json/scatter_plot.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/scatter_plot.json" style="width: 100%"></vegachart>
 
 ## Explore The Data & Analysis
 
