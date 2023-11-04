@@ -12,16 +12,12 @@ custom_js:
 
 # Illinois Building Inventory Visualizations
 
-I created this assignment to explore the interactive visualization capabilities of vega-lite, as demonstrated in this [informative blog post](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html). The visualizations are part of an academic assignment, and the code can be found in the linked Jupyter notebook.
-
-
 ![Bar Chart Visualization]({{ site.baseurl }}/assets/hw8/visualization.png)
 *Bar Chart Visualization of Building Inventory*
 
 For a more interactive experience, I have also included a scatter plot that allows users to explore the data in more depth:
 
-![Scatter Plot Visualization]({{ site.baseurl }}/assets/hw8/visualization.svg)
-*Scatter Plot Visualization of Building Inventory (SVG)*
+vegachart schema-url="{{ site.baseurl }}/assets/json/scatter_plot.json" style="width: 100%"></vegachart>
 
 ## Explore The Data & Analysis
 
