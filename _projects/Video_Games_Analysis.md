@@ -75,7 +75,8 @@ This pie chart visualization is designed to give you an intuitive understanding 
 
 **Technical Note**: The map has been carefully adjusted to recognize all countries accurately, including the conversion of 'US' to 'United States' for better geographical identification. The visualization is designed to be both informative and visually engaging, making it easy to grasp the global landscape of video game development.
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/viz3.json" style="width: 100%"></vegachart>
+![Choropleth Map](/assets/pngs/viz3.png)
+
 
 ---
 **Visualization 2: Top 10 Video Game Developers by Global Sales**
