@@ -1,7 +1,7 @@
 ---
 name: Video_Games_Analysis
 tools: [Python, Altair, vega-lite, Pycountry, Bqplot, Plotly]
-image: image: assets/pngs/pie.jpg
+image: assets/pngs/pie.jpg
 description: This project showcases interactive visualizations of the video game industry.
 custom_js:
   - vega.min
@@ -40,9 +40,7 @@ We invite readers to engage with our visualizations, offering a window into the 
 
 This visualization serves as a tool to explore how different video game genres are received by users. It can reveal which genres tend to have higher user scores, indicating greater popularity or satisfaction, and which genres have a wider range of scores, suggesting varied reception among players.
 
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/viz1.json" style="width: 100%"></vegachart>
-
+<iframe src="https://github.com/Qu4drupleU/Qu4drupleU.github.io/blob/main/assets/html/viz1.html" width="100%" height="400"></iframe>
 
 ### Interactive Visualization: Distribution of Video Game Genres
 
@@ -64,7 +62,8 @@ This pie chart visualization is designed to give you an intuitive understanding 
 
 
 ### Contextual Visualizations
-1. **Visualization 1: Global Distribution of Video Game Developers**
+**Visualization 1: Global Distribution of Video Game Developers**
+
 **What It Shows**: This interactive Choropleth map provides a visual representation of the global distribution of video game developers. Each country is shaded based on the number of developers associated with it, offering a clear picture of the geographical spread of the industry's creative forces.
 
 **How to Interact**: 
@@ -81,7 +80,8 @@ This pie chart visualization is designed to give you an intuitive understanding 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/viz3.json" style="width: 100%"></vegachart>
 
 ---
-2. **Visualization 2: Top 10 Video Game Developers by Global Sales**
+**Visualization 2: Top 10 Video Game Developers by Global Sales**
+
 **What It Shows**: This bar chart presents a comparative analysis of the top 10 video game developers based on their global sales figures. The visualization highlights the commercial success of these developers in the global gaming market.
 
 **How to Interact**: 
