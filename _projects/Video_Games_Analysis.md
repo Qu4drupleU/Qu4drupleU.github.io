@@ -47,17 +47,17 @@ This visualization serves as a tool to explore how different video game genres a
 **What It Shows**: This interactive pie chart offers a visual representation of the distribution of different video game genres in the dataset. Each slice of the pie chart corresponds to a specific genre, with the size of the slice indicating the relative frequency of games in that genre.
 
 **How to Interact**: 
-1. **Click on a Pie Slice**: When you click on a slice of the pie chart, it highlights in red. This interaction displays detailed information about the selected genre.
-2. **View Genre Details**: Upon clicking a genre, a label will appear showing the genre name and the number of games in that genre. This feature allows you to quickly grasp the prevalence of each genre in the dataset.
+**Hover over a Pie Slice**: When you hover over a slice of the pie chart, it will tell you the information about the selected genre.
+
 
 **Understanding the Visualization**: 
 - **Pie Slices**: Each slice represents a different video game genre. The size of the slice is proportional to the number of games in that genre relative to the total number of games.
 - **Color Coding**: The pie chart uses a range of colors to distinguish between genres, making it easy to identify each one visually.
-- **Interactive Highlight**: When a slice is clicked, it changes color to highlight your selection and presents specific information about that genre.
+
 
 This pie chart visualization is designed to give you an intuitive understanding of the genre composition within the dataset. It shows which genres are more prevalent and allows for an easy comparison between the different categories of games.
 
-<iframe src="/assets/json/viz2.html" width="700" height="500"></iframe>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/viz2.json" style="width: 100%"></vegachart>
 
 ### Contextual Visualizations
 **Visualization 1: Global Distribution of Video Game Developers**
