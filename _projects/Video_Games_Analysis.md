@@ -57,9 +57,7 @@ This visualization serves as a tool to explore how different video game genres a
 
 This pie chart visualization is designed to give you an intuitive understanding of the genre composition within the dataset. It shows which genres are more prevalent and allows for an easy comparison between the different categories of games.
 
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/viz2.json" style="width: 100%"></vegachart>
-
+<iframe src="/assets/json/viz2.html" width="700" height="500"></iframe>
 
 ### Contextual Visualizations
 **Visualization 1: Global Distribution of Video Game Developers**
