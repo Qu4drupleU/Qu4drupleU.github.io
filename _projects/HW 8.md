@@ -15,6 +15,8 @@ custom_js:
 ![Bar Chart Visualization]({{ site.baseurl }}/assets/hw8/visualization.png)
 *Bar Chart Visualization of Building Inventory*
 
+
+
 For a more interactive experience, I have also included a scatter plot that allows users to explore the data in more depth:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/scatter_plot.json" style="width: 100%"></vegachart>
