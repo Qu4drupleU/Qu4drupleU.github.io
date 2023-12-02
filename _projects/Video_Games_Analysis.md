@@ -1,7 +1,7 @@
 ---
 name: Video_Games_Analysis
 tools: [Python, Altair, vega-lite, Pycountry, Bqplot, Plotly]
-image: assets/pngs/pie.jpg
+image: assets/pngs/pie.png
 description: This project showcases interactive visualizations of the video game industry.
 custom_js:
   - vega.min
