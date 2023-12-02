@@ -47,6 +47,7 @@ This visualization serves as a tool to explore how different video game genres a
 **What It Shows**: This interactive pie chart offers a visual representation of the distribution of different video game genres in the dataset. Each slice of the pie chart corresponds to a specific genre, with the size of the slice indicating the relative frequency of games in that genre.
 
 **How to Interact**: 
+
 **Hover over a Pie Slice**: When you hover over a slice of the pie chart, it will tell you the information about the selected genre.
 
 
@@ -62,11 +63,7 @@ This pie chart visualization is designed to give you an intuitive understanding 
 ### Contextual Visualizations
 **Visualization 1: Global Distribution of Video Game Developers**
 
-**What It Shows**: This interactive Choropleth map provides a visual representation of the global distribution of video game developers. Each country is shaded based on the number of developers associated with it, offering a clear picture of the geographical spread of the industry's creative forces.
-
-**How to Interact**: 
-- **Explore by Country**: Hover over any country on the map to see a tooltip with the country's name and the exact count of video game developers located there.
-- **Visual Color Scale**: The color intensity on the map varies according to the concentration of developers – darker shades represent higher numbers, while lighter shades indicate fewer developers.
+**What It Shows**: This Choropleth map provides a visual representation of the global distribution of video game developers. Each country is shaded based on the number of developers associated with it, offering a clear picture of the geographical spread of the industry's creative forces.
 
 **Understanding the Visualization**: 
 - **Color Scale**: The 'Rainbow' colorscale has been used for visual appeal and clarity, with a spectrum of colors representing different quantities.
@@ -100,16 +97,10 @@ This pie chart visualization is designed to give you an intuitive understanding 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/viz4.json" style="width: 100%"></vegachart>
 
-
-
-## Data Sources and Citations
-- **Main Dataset:** [vgsales.csv](https://data.world/mhoangvslev/steam-games-dataset/workspace/file?filename=vgsales.csv)
-- **Contextual Dataset** [developer.csv](https://data.world/mhoangvslev/steam-games-dataset/workspace/file?filename=developper.csv) 
-
-
 ---
 ## Analysis
-
+- **Main Dataset:** [vgsales.csv](https://data.world/mhoangvslev/steam-games-dataset/workspace/file?filename=vgsales.csv)
+- **Contextual Dataset** [developer.csv](https://data.world/mhoangvslev/steam-games-dataset/workspace/file?filename=developper.csv) 
 <!-- Button for the Jupyter notebook -->
 <div class="right">
 {% include elements/button.html link="https://github.com/Qu4drupleU/Qu4drupleU.github.io/blob/main/python_notebooks/Final_Project.ipynb" text="The Analysis" %}
