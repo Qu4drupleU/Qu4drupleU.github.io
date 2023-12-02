@@ -40,7 +40,7 @@ We invite readers to engage with our visualizations, offering a window into the 
 
 This visualization serves as a tool to explore how different video game genres are received by users. It can reveal which genres tend to have higher user scores, indicating greater popularity or satisfaction, and which genres have a wider range of scores, suggesting varied reception among players.
 
-<iframe src="https://github.com/Qu4drupleU/Qu4drupleU.github.io/blob/main/assets/html/viz1.html" width="100%" height="400"></iframe>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/viz1.json" style="width: 100%"></vegachart>
 
 ### Interactive Visualization: Distribution of Video Game Genres
 
@@ -101,7 +101,7 @@ This pie chart visualization is designed to give you an intuitive understanding 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/viz4.json" style="width: 100%"></vegachart>
 
-v
+
 
 ## Data Sources and Citations
 - **Main Dataset:** [vgsales.csv](https://data.world/mhoangvslev/steam-games-dataset/workspace/file?filename=vgsales.csv)
