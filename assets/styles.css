@@ -158,6 +158,22 @@ header {
   flex-wrap: wrap;
 }
 
+.hero-current {
+  font-size: clamp(16px, 2.2vw, 22px);
+  font-weight: 700;
+  line-height: 1.45;
+  margin: -12px 0 32px;
+}
+.hero-current span {
+  display: block;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+  margin-top: 8px;
+}
+.exp-company + .exp-bullets { margin-top: 18px; }
+
 /* ─── STATUS BAR ─────────────────────────────── */
 .status-bar {
   display: flex;
